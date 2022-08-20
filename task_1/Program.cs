@@ -8,9 +8,13 @@ Console.Write("Введите второе число: ");
 int num_2 = Convert.ToInt32(Console.ReadLine());
 if (num_1<num_2)
 {
-    Console.WriteLine("num_2+" - большее число, а "+num_1+" - меньшее.");
+    Console.WriteLine(num_2+" - большее число, а "+num_1+" - меньшее.");
+}
+else if (num_1>num_2)
+{
+    Console.WriteLine(num_1+" - большее число, а "+num_2+" - меньшее.");
 }
 else
 {
-    Console.WriteLine(num_1+" - большее число, а "+num_2+" - меньшее.");
+    Console.WriteLine("Введенные числа равны");
 }
